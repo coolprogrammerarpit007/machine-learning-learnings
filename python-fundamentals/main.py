@@ -118,3 +118,17 @@ b = 20
 #     print("Very Hot!")
 
 
+
+# Iterations In Python
+
+#  for loops in python
+
+# for index in range(1,101):
+#     print(f"Index: {index} ")
+
+
+
+# name = "ARPIT DIVYANSH"
+
+# for ch in name:
+#     print(ch)

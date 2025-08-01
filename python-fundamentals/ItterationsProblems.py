@@ -54,3 +54,31 @@ sum_of_odd_numbers = 0
 # print(f"Sum of Odd Numbers: {sum_of_odd_numbers}")
 
 
+# Print All Factors of a number
+
+# number = int(input("Enter Number: "))
+# for num in range(1,number+1):
+#     if number % num == 0:
+#         print(num)
+
+
+
+#  To check if a number is perfect number or not
+
+number = int(input("Enter Number: "))
+factors = []
+
+for index in range(1,number):
+    if number % index == 0:
+        factors.append(index)
+
+    else:
+        continue
+
+
+sum_of_factors = sum(factors)
+if  sum_of_factors == number:
+    print(f"Number {number} is a Perfect Number")
+
+else:
+    print(f"Number {number} is not a Perfect Number.")

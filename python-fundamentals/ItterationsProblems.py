@@ -178,3 +178,41 @@
 # print(f"Chars = {count_letters}")
 # print(f"Digits = {count_digit}")
 # print(f"Symbols = {count_symbol}")
+
+
+#  Program to Separate each digit of a number and print it on the new line
+# input_digit = input("Enter Number: ")
+
+# # for digit in range(len(input_digit)):
+# #     print(f"Digit: {input_digit[digit]}")
+
+# # Program to print number in reverse order.add()
+
+# reverse_digit = ''
+
+# for digit in range(len(input_digit)-1,-1,-1):
+#     reverse_digit += input_digit[digit]
+
+
+# print(f"Inputted Number: {input_digit}")
+# print(f"Reversed Number: {reverse_digit}")
+
+
+# Program to check whether a number is palindrome number or not.
+
+# input_digit = input("Enter Number: ")
+# reversed_number = ''
+# is_palindrome_digit = False
+
+
+# for digit in range(len(input_digit)-1,-1,-1):
+#     reversed_number += input_digit[digit]
+
+
+# if reversed_number == input_digit:
+#     is_palindrome_digit = True
+
+# result = f"Is Palindrome Number: {input_digit}" if is_palindrome_digit else f"Not Palindrome Number: {input_digit}"
+# print(result)
+
+

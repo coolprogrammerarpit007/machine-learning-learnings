@@ -84,5 +84,40 @@ def check_is_sorted(numbers):
 
 numbers1 = [1,2,3,4,5,6]
 # result = check_is_sorted(numbers)
-result = check_is_sorted(numbers1)
-print(f"List is Sorted: {result}")
+# result = check_is_sorted(numbers1)
+# print(f"List is Sorted: {result}")
+
+
+# Tuples in Python
+
+planet_names = ("EARTH","MARS","JUPYTER","VENUS","SUN","MOON")
+# Tuples are not Mutable and much faster than Lists.
+
+# tuple unpacking
+
+# num1,num2 = (1,2)
+# print(num1)
+# print(num2)
+
+
+# Sets in Python
+
+# Sets do not have duplicate value and they are un-ordered.
+# sets are mutable
+# sets do not have index value.
+number_set = {1,92,2,3,4,5,6}
+
+# Each value in set is hashed using a Hash Function in Python
+# Only Immutable objects can be stored inside Sets.
+# print(number_set)
+
+
+# for num in number_set:
+    # print(num)
+
+# methods in set
+number_set.add(15)
+number_set.remove(15)
+
+
+

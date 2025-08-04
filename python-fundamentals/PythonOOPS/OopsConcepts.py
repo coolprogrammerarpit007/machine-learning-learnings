@@ -147,16 +147,24 @@ lion = Lion()
 
 # Encapsulation
 
-class Factory:
-    _a = "Pune Factory"
+# To make attributes and methods inside class Private need to use __ before attribute/method name
+# class Factory:
+#    __a = "Pune Factory"
 
-    def show(self):
-        print("Hello I am a Pune Factory!")
+#    def __show(self):
+#        print("This is Factory of pune.")
 
 
-class Bhopal(Factory):
-    def __init__(self):
-        super().__init__()
+# class Bhopal(Factory):
+#     def __init__(self):
+#         super().__init__()
 
-obj = Factory()
-# print(obj.a)
+# obj = Factory()
+# # print(obj.__a)
+
+
+
+
+# Access Modifiers are used inside the Encapsulation
+# ENCAPSULATION means you wanted to protect your data. 
+

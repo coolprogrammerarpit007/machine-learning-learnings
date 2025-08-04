@@ -104,17 +104,59 @@
 
 # Multi-Level Inheritance
 
-class GrandFather:
-    def heritage(self):
-        print("Heritage from Grandfather")
+# class GrandFather:
+#     def heritage(self):
+#         print("Heritage from Grandfather")
 
-class Father(GrandFather):
-    def parent_heritage(self):
-        print("Heritage from father")
+# class Father(GrandFather):
+#     def parent_heritage(self):
+#         print("Heritage from father")
 
-class Chid(Father):
-    pass
+# class Chid(Father):
+#     pass
 
-obj = Chid()
-obj.heritage()
-obj.parent_heritage()
+# obj = Chid()
+# obj.heritage()
+# obj.parent_heritage()
+
+
+# PolyMorphism :- One Name Many Forms
+
+
+class Animal:
+    def show(self):
+        print("This is Animal Class.")
+
+class Lion(Animal):
+    def show(self):
+        print("Lion is Inherited from the Animal Class.")
+
+lion = Lion()
+# lion.show()
+
+# This is called Method Overriding in Python as child class Method overrides Parent's class if both the methods are same
+# Method Overloading not happens in Python, It only happens in the compiled type languages
+
+# Duck Typing
+
+# Polymorphism in Python can only happen using Duck-Typing and Method Overriding.
+# Polymorphism requires Inheritance to work.
+# Python do not have Method OverLoading. 
+
+
+
+# Encapsulation
+
+class Factory:
+    _a = "Pune Factory"
+
+    def show(self):
+        print("Hello I am a Pune Factory!")
+
+
+class Bhopal(Factory):
+    def __init__(self):
+        super().__init__()
+
+obj = Factory()
+# print(obj.a)

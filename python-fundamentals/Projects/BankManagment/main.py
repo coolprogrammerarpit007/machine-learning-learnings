@@ -21,8 +21,8 @@ class Bank:
 
     
     def update(self):
-        with open(Bank.database,"a") as fs:
-            json.dump(self.data,fs,indent=4)
+        with open(Bank.database, "w") as fs:
+            json.dump(self.data, fs, indent=4)
 
 
     def generateAccountNumber(self):
@@ -235,8 +235,8 @@ class Bank:
 
 
 def start():
+    bank = Bank()
     while True:
-        bank = Bank()
         print("Press 1 for creating your bank account")
         print("Press 2 for depositing money to your bank account")
         print("Press 3 for withdrawing money from your bank account")
